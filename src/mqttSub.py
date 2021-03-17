@@ -5,7 +5,7 @@ from paho.mqtt import client as mqtt_client
 
 broker = '192.168.100.33'
 port = 1883
-topic = "/python/mqtt"
+topic = "esp8266/lampadaLab"
 # generate client ID with pub prefix randomly
 client_id = f'python-mqtt-{random.randint(0, 100)}'
 # username = 'emqx'
